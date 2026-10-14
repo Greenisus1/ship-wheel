@@ -1,0 +1,15 @@
+name: ShipWheel
+version: 2.0.0
+main: io.github.greenisus1.shipwheel.ShipWheelPlugin
+api-version: '26.3'
+description: Place a ship wheel on a structure and drive it like a boat or car.
+author: Greenisus1
+commands:
+  shipwheel:
+    description: Give yourself a ship wheel
+    usage: /shipwheel give [player]
+permissions:
+  shipwheel.give:
+    default: op
+  shipwheel.use:
+    default: true
